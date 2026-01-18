@@ -27,7 +27,7 @@ export default function Home() {
       subtitle: 'Practical AI Integration for HR & Beyond',
       shortDescription: 'Leverage AI to automate processes, enhance decision-making, and drive innovation in your organization.',
       fullDescription: 'AI isn&apos;t magic—it&apos;s a tool. With a foundation in Computational Linguistics and hands-on experience from Codecademy&apos;s AI Maker Bootcamp, I help organizations cut through the hype and use AI effectively. I conduct process audits to identify where AI can genuinely add value (and where it can&apos;t), support tool evaluation and selection for HR processes and workflows, provide implementation support to integrate AI solutions smoothly, and offer training and workshops to get teams comfortable with AI tools.',
-      ideal: 'Organizations curious about AI but unsure where to start—or those who\'ve started but need strategic guidance.',
+      ideal: 'Organizations curious about AI but unsure where to start—or those who&apos;ve started but need strategic guidance.',
       color: 'from-slate-600 to-blue-800'
     },
     {
@@ -512,7 +512,7 @@ export default function Home() {
       {/* Contact & Booking Section */}
       <section id="contact" className="py-20 px-6 bg-gradient-to-br from-slate-50 to-emerald-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-4">Let's Talk</h2>
+          <h2 className="text-5xl font-bold text-center mb-4">Let&apos;s Talk</h2>
           <p className="text-gray-600 text-center mb-12 text-xl">
             Ready to explore how we can work together?
           </p>
@@ -583,7 +583,7 @@ export default function Home() {
                 <input type="hidden" name="form-name" value="contact" />
                 <p className="hidden">
                   <label>
-                    Don't fill this out if you're human: <input name="bot-field" />
+                    Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
                   </label>
                 </p>
                 
