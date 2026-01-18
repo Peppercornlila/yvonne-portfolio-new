@@ -578,14 +578,14 @@ export default function Home() {
                 Prefer to write? Send me a message and I&apos;ll get back to you within 24 hours.
               </p>
               
-              {/* Netlify Form */}
-              <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="space-y-4">
-                <input type="hidden" name="form-name" value="contact" />
-                <p className="hidden">
-                  <label>
-                    Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
-                  </label>
-                </p>
+              {/* Web3Forms Contact Form */}
+              <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
+                <input type="hidden" name="access_key" value="88db3d9c-551f-4453-894c-325c57da9a4c" />
+                <input type="hidden" name="subject" value="New Contact from Portfolio Website" />
+                <input type="hidden" name="redirect" value="https://yvonnewhymore.netlify.app/#contact" />
+                
+                {/* Honeypot Spam Protection */}
+                <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
                 
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
