@@ -26,7 +26,7 @@ export default function Home() {
       title: 'AI Solutions',
       subtitle: 'Practical AI Integration for HR & Beyond',
       shortDescription: 'Leverage AI to automate processes, enhance decision-making, and drive innovation in your organization.',
-      fullDescription: 'AI isn\'t magic—it\'s a tool. With a foundation in Computational Linguistics and hands-on experience from Codecademy\'s AI Maker Bootcamp, I help organizations cut through the hype and use AI effectively. I conduct process audits to identify where AI can genuinely add value (and where it can\'t), support tool evaluation and selection for HR processes and workflows, provide implementation support to integrate AI solutions smoothly, and offer training and workshops to get teams comfortable with AI tools.',
+      fullDescription: 'AI isn&apos;t magic—it&apos;s a tool. With a foundation in Computational Linguistics and hands-on experience from Codecademy&apos;s AI Maker Bootcamp, I help organizations cut through the hype and use AI effectively. I conduct process audits to identify where AI can genuinely add value (and where it can&apos;t), support tool evaluation and selection for HR processes and workflows, provide implementation support to integrate AI solutions smoothly, and offer training and workshops to get teams comfortable with AI tools.',
       ideal: 'Organizations curious about AI but unsure where to start—or those who\'ve started but need strategic guidance.',
       color: 'from-slate-600 to-blue-800'
     },
@@ -44,7 +44,7 @@ export default function Home() {
       title: 'Gamification',
       subtitle: 'Making Work Engaging, Not Exhausting',
       shortDescription: 'Boost engagement and learning outcomes through gamified experiences and interactive solutions.',
-      fullDescription: 'It started with a scavenger hunt. At PSI, I turned mandatory safety training into an interactive experience that people actually enjoyed. That\'s the power of gamification—not gimmicks, but thoughtful design that motivates. I create gamified onboarding experiences that welcome and inform, design learning programs that boost retention and engagement, redesign processes using game mechanics to drive participation, and develop employee engagement initiatives that feel less like "corporate fun," more like genuine connection.',
+      fullDescription: 'It started with a scavenger hunt. At PSI, I turned mandatory safety training into an interactive experience that people actually enjoyed. That&apos;s the power of gamification—not gimmicks, but thoughtful design that motivates. I create gamified onboarding experiences that welcome and inform, design learning programs that boost retention and engagement, redesign processes using game mechanics to drive participation, and develop employee engagement initiatives that feel less like "corporate fun," more like genuine connection.',
       ideal: 'Organizations tired of checkbox compliance and ready to create experiences that people remember.',
       color: 'from-emerald-600 to-teal-600'
     }
@@ -57,7 +57,7 @@ export default function Home() {
       title: 'The PSI Trail',
       subtitle: 'Gamification Meets Onboarding',
       challenge: 'New employees at Paul Scherrer Institute faced mandatory safety training and site orientation—traditionally a checkbox exercise that felt like, well, a mandatory checkbox exercise.',
-      solution: 'I designed an interactive scavenger hunt that transformed the standard site tour into an engaging team experience. What started as a "fun idea" evolved into a digital tool used for years, proving that compliance and engagement aren\'t mutually exclusive.',
+      solution: 'I designed an interactive scavenger hunt that transformed the standard site tour into an engaging team experience. What started as a "fun idea" evolved into a digital tool used for years, proving that compliance and engagement aren&apos;t mutually exclusive.',
       impact: [
         'Replaced passive walkthroughs with active exploration',
         'Increased information retention and team bonding',
@@ -76,7 +76,7 @@ export default function Home() {
       challenge: 'Emerging female researchers in STEM faced a critical gap between academia and industry, with limited networks and role models to navigate career transitions.',
       solution: 'Designed and led a national, inter-university pilot program connecting women across sectors through structured mentoring, workshops, and networking—bridging the gap between research institutions and industry partners.',
       impact: [
-        'Established Switzerland\'s first cross-sector program for women in STEM',
+        'Established Switzerland&apos;s first cross-sector program for women in STEM',
         'Balanced expectations between academic and industry stakeholders',
         'Transitioned from pilot to established program'
       ],
@@ -131,8 +131,8 @@ export default function Home() {
       link: 'https://medium.com/@y.a.mueller/gamification-in-hr-walking-through-the-doors-part-1-4-d36383d96de3'
     },
     {
-      title: 'Door 1: Forced Fun Isn\'t Fun',
-      teaser: 'Points, badges, leaderboards—the gamification starter pack. But what happens when game mechanics feel like obligation instead of motivation? Let\'s talk about what doesn\'t work, and why.',
+      title: 'Door 1: Forced Fun Isn&apos;t Fun',
+      teaser: 'Points, badges, leaderboards—the gamification starter pack. But what happens when game mechanics feel like obligation instead of motivation? Let&apos;s talk about what doesn&apos;t work, and why.',
       link: 'https://medium.com/@y.a.mueller/door-1-forced-fun-isnt-fun-31216dcb71f7'
     },
     {
@@ -142,12 +142,12 @@ export default function Home() {
     },
     {
       title: 'Why Being the Exotic One Is Uncomfortable (And What Tech Needs)',
-      teaser: 'Being "the diversity hire" isn\'t a compliment—it\'s a burden. A reflection on what it means to be the "different one" in tech, and why real inclusion requires more than good intentions.',
+      teaser: 'Being "the diversity hire" isn&apos;t a compliment—it&apos;s a burden. A reflection on what it means to be the "different one" in tech, and why real inclusion requires more than good intentions.',
       link: 'https://medium.com/@y.a.mueller/why-being-the-exotic-one-is-uncomfortable-and-exactly-what-tech-needs-067611c54fc2'
     },
     {
       title: 'What You Learn When Diving Into Gamification',
-      teaser: 'Gamification isn\'t just about making things fun—it\'s about understanding human motivation, behavior design, and when to play (and when not to). Lessons from exploring a field that\'s bigger than buzzwords.',
+      teaser: 'Gamification isn&apos;t just about making things fun—it&apos;s about understanding human motivation, behavior design, and when to play (and when not to). Lessons from exploring a field that&apos;s bigger than buzzwords.',
       link: 'https://medium.com/@y.a.mueller/what-you-learn-when-diving-into-the-idea-of-gamification-23b87252784e'
     }
   ];
@@ -330,11 +330,11 @@ export default function Home() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-2xl text-gray-700 leading-relaxed mb-6">
-              I'm not your typical HR professional. With a background spanning Computational Linguistics, career development, and executive search, I've spent years at the intersection of people and processes—at BCG, the Paul Scherrer Institute, and beyond.
+              I&apos;m not your typical HR professional. With a background spanning Computational Linguistics, career development, and executive search, I&apos;ve spent years at the intersection of people and processes—at BCG, the Paul Scherrer Institute, and beyond.
             </p>
             
             <p className="text-2xl text-gray-700 leading-relaxed mb-6">
-              What drives me? The belief that in today's efficiency-obsessed world, there's power in a more playful, human-centered approach. Whether it's gamifying onboarding processes, integrating AI tools, or rethinking career development strategies, I help organizations create experiences that engage rather than exhaust.
+              What drives me? The belief that in today&apos;s efficiency-obsessed world, there&apos;s power in a more playful, human-centered approach. Whether it&apos;s gamifying onboarding processes, integrating AI tools, or rethinking career development strategies, I help organizations create experiences that engage rather than exhaust.
             </p>
             
             <p className="text-2xl text-gray-700 leading-relaxed">
@@ -535,7 +535,7 @@ export default function Home() {
               </p>
               
               <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-6 mb-6">
-                <h4 className="font-semibold text-gray-800 mb-3 text-lg">What we'll discuss:</h4>
+                <h4 className="font-semibold text-gray-800 mb-3 text-lg">What we&apos;ll discuss:</h4>
                 <ul className="space-y-2 text-gray-700 text-lg">
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-600 mt-1">✓</span>
@@ -575,7 +575,7 @@ export default function Home() {
               </div>
               
               <p className="text-gray-600 mb-6 leading-relaxed text-lg">
-                Prefer to write? Send me a message and I'll get back to you within 24 hours.
+                Prefer to write? Send me a message and I&apos;ll get back to you within 24 hours.
               </p>
               
               {/* Netlify Form */}
