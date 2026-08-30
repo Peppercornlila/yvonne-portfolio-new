@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ChevronDown, Scissors, Compass, Mail, Linkedin, Calendar, ExternalLink, BookOpen } from 'lucide-react';
+import { ChevronDown, Mail, Linkedin, Calendar, ExternalLink, BookOpen } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -11,41 +11,30 @@ export default function Home() {
 
   const services = [
     {
-      id: 'hr',
-      icon: <Scissors className="w-8 h-8 text-gray-800" />,
-      title: 'HR Consulting',
-      subtitle: 'Strategic Human Resources with Real-World Insight',
-      shortDescription: 'Transform your HR processes with strategic consulting, talent development, and organizational design.',
-      fullDescription: 'Having built career centers, led talent strategies, and worked in executive search, I know HR from multiple angles. I help organizations assess and optimize current HR processes for efficiency and employee satisfaction, design career development programs that actually engage people, rethink onboarding and offboarding to ensure critical information lands—and sticks, and develop talent strategies aligned with business goals.',
-      ideal: 'Organizations ready to move beyond "HR as usual" and create processes people actually want to engage with.',
+      id: 'sourcing',
+      title: 'Active Sourcing & Recruiting Insights',
+      subtitle: 'Behind the Scenes of How Sourcing Really Works',
+      shortDescription: 'A behind-the-scenes look at how sourcing and executive search really work, shared through talks, webinars, and hands-on tips on LinkedIn visibility.',
+      fullDescription: 'I share what I\'ve learned from screening hundreds of CVs, running search mandates, and building visibility on LinkedIn — through talks, webinars, and practical write-ups. This isn\'t a service you can book; it\'s insight I\'m glad to share.',
+      ideal: 'HR teams and recruiters who want to sharpen their own sourcing game.',
       color: 'from-emerald-600 to-teal-600'
     },
     {
       id: 'ai',
-      icon: <Compass className="w-8 h-8 text-gray-800" />,
-      title: 'AI Solutions',
-      subtitle: 'Practical AI Integration for HR & Beyond',
-      shortDescription: 'Leverage AI to automate processes, enhance decision-making, and drive innovation in your organization.',
-      fullDescription: 'AI isn\'t magic—it\'s a tool. With a foundation in Computational Linguistics and hands-on experience from Codecademy\'s AI Maker Bootcamp, I help organizations cut through the hype and use AI effectively. I conduct process audits to identify where AI can genuinely add value (and where it can\'t), support tool evaluation and selection for HR processes and workflows, provide implementation support to integrate AI solutions smoothly, and offer training and workshops to get teams comfortable with AI tools.',
-      ideal: 'Organizations curious about AI but unsure where to start—or those who\'ve started but need strategic guidance.',
+      title: 'AI in Recruiting',
+      subtitle: 'Practical, Not Hyped',
+      shortDescription: 'Practical, not hyped. How AI tools can sharpen sourcing and screening, while the human decision stays where it belongs, with humans.',
+      fullDescription: 'AI is a tool, not a strategy. I explore where AI genuinely speeds up sourcing and screening — and where the human decision still needs to lead. No AI-first dogma, no hype, just practical experience.',
+      ideal: 'Anyone curious about applying AI to recruiting without losing the human judgment that still matters most.',
       color: 'from-slate-600 to-blue-800'
     },
     {
       id: 'gamification',
-      icon: (
-        <Image 
-          src="/images/Icon_Flaschenoeffner.png"
-          alt="Gamification"
-          width={32}
-          height={32}
-          className="object-contain"
-        />
-      ),
-      title: 'Gamification',
-      subtitle: 'Making Work Engaging, Not Exhausting',
-      shortDescription: 'Boost engagement and learning outcomes through gamified experiences and interactive solutions.',
-      fullDescription: 'It started with a scavenger hunt. At PSI, I turned mandatory safety training into an interactive experience that people actually enjoyed. That\'s the power of gamification—not gimmicks, but thoughtful design that motivates. I create gamified onboarding experiences that welcome and inform, design learning programs that boost retention and engagement, redesign processes using game mechanics to drive participation, and develop employee engagement initiatives that feel less like "corporate fun," more like genuine connection.',
-      ideal: 'Organizations tired of checkbox compliance and ready to create experiences that people remember.',
+      title: 'Gamification in HR',
+      subtitle: 'Selected Projects, Real Impact',
+      shortDescription: 'Making onboarding and engagement genuinely engaging, as shown in The PSI Trail.',
+      fullDescription: 'It started with a scavenger hunt. At PSI, I turned mandatory safety training into an experience people actually enjoyed. Gamification, done well, isn\'t about gimmicks — it\'s thoughtful design that motivates. See The PSI Trail for the full story.',
+      ideal: 'Organizations open to rethinking one specific process, like onboarding or training, through playful design.',
       color: 'from-emerald-600 to-teal-600'
     }
   ];
@@ -121,6 +110,11 @@ export default function Home() {
 
   const articles = [
     {
+      title: 'Same Helmet, Three Different Lessons',
+      teaser: 'Knowing a definition and truly understanding it are two different things. Here is how one hard hat helps tell Gamification, Serious Games, and LEGO Serious Play apart.',
+      link: 'https://medium.com/@y.a.mueller/same-helmet-three-different-lessons-b176be76e592'
+    },
+    {
       title: 'From Joke to Onboarding Tool: The PSI Trail Story',
       teaser: 'What happens when you turn mandatory safety training into a scavenger hunt? Discover how a playful experiment became an institutional tool—and why gamification works best when it solves real problems.',
       link: 'https://medium.com/@y.a.mueller/from-joke-to-onboarding-tool-how-the-psi-trail-became-a-lasting-experience-7fe5d277c82c'
@@ -172,43 +166,28 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
+            {/* Hero Section */}
+            <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-[1fr_auto_1fr] gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Text Content - Left Column */}
             <div>
-              {/* YM Monogram */}
-              <div className="mb-6">
-                <div className="text-7xl font-bold bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent">
-                  YM
-                </div>
-              </div>
-              
               <h1 className="text-5xl font-bold mb-2 text-gray-800">
                 Yvonne Müller
               </h1>
-              
-              {/* whY More Lines */}
-              <div className="mb-6 space-y-2">
-                <p className="text-2xl font-semibold">
-                  <span className="bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent">whY More</span>
-                  <span className="text-gray-700"> Gamification</span>
-                </p>
-                <p className="text-2xl font-semibold">
-                  <span className="bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent">whY More</span>
-                  <span className="text-gray-700"> AI Solutions</span>
-                </p>
-                <p className="text-2xl font-semibold">
-                  <span className="bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent">whY More</span>
-                  <span className="text-gray-700"> Human Touch</span>
-                </p>
-              </div>
-              
-              <p className="text-2xl text-gray-600 mb-8 leading-relaxed">
-                Like a Swiss Army knife, I combine HR expertise, AI innovation, and gamification to transform your business.
+
+              <p className="text-2xl font-semibold text-emerald-600 mb-6">
+                Active Sourcer &amp; Recruiting Specialist
               </p>
-              
+
+              <p className="text-2xl text-gray-600 mb-4 leading-relaxed">
+                I turn &quot;we need someone&quot; into the right hire.
+              </p>
+
+              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                15+ years at the intersection of people, strategy, and complexity — across executive search, in-house recruiting, and organisational innovation. I bring active sourcing expertise, a practical eye for AI tools, and (when it fits) a bit of gamification into the mix.
+              </p>
+
               <div className="flex gap-4">
                 <a href="#contact" className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full hover:shadow-lg transition-all font-semibold text-lg">
                   Book a Strategy Call
@@ -219,20 +198,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Swiss Army Knife - Center Column */}
-            <div className="flex justify-center items-center">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-400 to-teal-400 rounded-full blur-xl opacity-20"></div>
-                <Image 
-                  src="/images/Icon_Schweizer_Taschenmesser.png"
-                  alt="Swiss Army Knife"
-                  width={272}
-                  height={272}
-                  className="relative object-contain"
-                />
-              </div>
-            </div>
-
             {/* Photo - Right Column */}
             <div className="flex justify-center md:justify-end">
               <div className="relative">
@@ -240,8 +205,8 @@ export default function Home() {
                 <Image 
                   src="/images/yvonne-portrait.jpg" 
                   alt="Yvonne Müller"
-                  width={260}
-                  height={260}
+                  width={380}
+                  height={380}
                   className="relative rounded-3xl shadow-2xl"
                   priority
                 />
@@ -260,7 +225,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-4">What I Offer</h2>
           <p className="text-gray-600 text-center mb-12 text-xl">
-            Three pillars of excellence for your business transformation
+          Experience across HR, academia, and executive search — shared, not sold
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -279,13 +244,6 @@ export default function Home() {
                 <div className={`h-2 bg-gradient-to-r ${service.color}`} />
                 
                 <div className="p-10">
-                  <div className={`inline-flex p-5 rounded-full bg-white border-4 border-solid mb-4 ${
-                    service.id === 'hr' ? 'border-emerald-600' : 
-                    service.id === 'ai' ? 'border-slate-600' : 
-                    'border-emerald-600'
-                  }`}>
-                    {service.icon}
-                  </div>
                   
                   <h3 className="text-3xl font-bold mb-3">{service.title}</h3>
                   <p className="text-gray-500 mb-5 text-xl">{service.subtitle}</p>
@@ -322,23 +280,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Me Section */}
-      <section id="about" className="py-20 px-6 bg-white">
+            {/* About Me Section */}
+            <section id="about" className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-4">About Me</h2>
-          <p className="text-emerald-600 text-center mb-12 text-xl font-semibold">HR Meets Innovation</p>
+          <p className="text-emerald-600 text-center mb-12 text-xl font-semibold">Active Sourcing Meets AI &amp; Gamification</p>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-2xl text-gray-700 leading-relaxed mb-6">
-              I&apos;m not your typical HR professional. With a background spanning Computational Linguistics, career development, and executive search, I&apos;ve spent years at the intersection of people and processes—at BCG, the Paul Scherrer Institute, and beyond.
-            </p>
-            
-            <p className="text-2xl text-gray-700 leading-relaxed mb-6">
-              What drives me? The belief that in today&apos;s efficiency-obsessed world, there&apos;s power in a more playful, human-centered approach. Whether it&apos;s gamifying onboarding processes, integrating AI tools, or rethinking career development strategies, I help organizations create experiences that engage rather than exhaust.
+              With 15+ years across strategy consulting, academia and the public sector, and executive search, I&apos;ve learned how to find the right people, and how to talk to them so they actually want to say yes. I&apos;ve screened hundreds of CVs, run workshops as both speaker and organiser, and led programs from concept to institution.
             </p>
             
             <p className="text-2xl text-gray-700 leading-relaxed">
-              I collaborate with organizations on selected projects, combining strategic HR expertise with AI solutions and gamification. Think of it as a Swiss Army knife approach: versatile, precise, and always focused on real impact.
+              Today, as an Active Sourcer, I connect the right people with the right roles every day. On the side, I explore how AI can make sourcing sharper, and occasionally bring a bit of play into HR processes that badly need it.
             </p>
           </div>
           
@@ -460,7 +414,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-4">Featured Insights</h2>
           <p className="text-gray-600 text-center mb-12 text-xl">
-            Thoughts on gamification, HR, and what makes work human
+            Thoughts on recruiting, AI, and what makes work human
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -582,7 +536,7 @@ export default function Home() {
               <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
                 <input type="hidden" name="access_key" value="88db3d9c-551f-4453-894c-325c57da9a4c" />
                 <input type="hidden" name="subject" value="New Contact from Portfolio Website" />
-                <input type="hidden" name="redirect" value="https://yvonnewhymore.netlify.app/#contact" />
+                <input type="hidden" name="redirect" value="https://yvonnemueller.netlify.app/#contact" />
                 
                 {/* Honeypot Spam Protection */}
                 <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
@@ -644,7 +598,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div>
               <div className="text-2xl font-bold mb-2">Yvonne Müller</div>
-              <p className="text-gray-400">HR, AI & Gamification Consulting</p>
+              <p className="text-gray-400">Active Sourcer &amp; Recruiting Specialist</p>
             </div>
             <div className="flex gap-4">
               <a 
